@@ -1,0 +1,500 @@
+1) Algorithm : 
+
+	It is a step by step implementation of given program. 
+
+Algorithm is a process or set of ;rules to be followed in 
+calculations or other problem solving operations. These rules or instructions
+that step by step define how to a work is to be executed upon in order to 
+get expected results. 
+
+Algorithm provides clarity as a problem can be solved in specific no.of steps. 
+
+Preparing Tea : 
+_______________
+
+Step 1 : 
+
+	Take all ingradiants 
+
+	   Milk/Water, Sugar/Honey, TeaPower/TeaLeaves
+
+Step 2 :
+
+	take all ingradiants into a vessel 
+
+Step 3 : Boil for some time
+
+Step 4 : Tea Prepared 
+
+Here, the steps to be followed in a sequence. 
+
+
+Algorithms help to do a task in programming to get the expected output. 
+Algorim desinged as language independent. 
+
+The instructions that can be implemented in any langauge, and yet the output will 
+be same as expected. 
+
+Chracterstics of Algorithm
+_____________________________
+
+1) finiteness : The algorithm must be finite. means the task to be completed
+w.r.t. No.of steps. 
+
+2) definiteness : We can trust the steps defined in algorithm. 
+
+3) Clear and Unambigious : Algorithm should be clear and unangibious, each of its 
+steps should be clear and all aspects and must lead to desired output.
+
+4) Well-Defined Inputs : If an algirthms says to take inputs, it should be well-defined
+inputs.
+
+5) Well-Defined Outputs : The algorithm must clearly define what output will be yielded
+and it should be well-defined as well. 
+
+There are 2 common ways or techniques for designing algorithms are :
+
+	(i) Divide and Conquer
+
+	(ii) Greedy 
+
+
+Divide and Conquer is a powerful approach for solving conceptually difficult problems. 
+
+it follows the principles of : 
+_______________________________
+
+	-> Breaking a problem into sub problems
+
+	-> Solving the trival cases 
+
+	-> Combining the solutions to the sub problems to solve the original problem.
+
+
+Greedy Approach : 
+___________________
+
+Algorithms based on greedy approach are used to solving optimization problems. 
+Where you need to maximize profits or minimize costs under a given set of conditions. 
+
+	Examples where we are using Optimization problems are : 
+
+  -> Finding the shortest distance from Source Place to Destination Place. 
+
+  -> Finding the min. no.of currency notes required for particular amount
+
+  -> Displaying Max. values from a given set of items. 
+
+
+
+
+The technique involves selecting the best available option at each step 
+
+Greedy 
+
+The Factors that which affects the efficiency of the program :
+______________________________________________________________
+
+   -> Speed of the application
+
+   -> OS
+
+   -> OS
+
+   -> Programming Language
+
+   -> Input Size
+
+_______________________________________________________________________________________
+
+
+Write An Algorithm to Accept you name and Print It :
+
+
+Step 1 : 
+
+	Declare a variable as studentName 
+
+Step 2 : 
+	
+	Accept a Value from Keyboard and Store in variable studentName 
+
+Step 3 : 
+	Print That Name 
+
+_______________________________________________________________________________
+
+
+Write a An Algorithm to Accept 2 numbers and Perform sum operation
+
+Step 1 : 
+ 
+      Declare a variables as num1 and num2
+
+Step 2 :
+
+      Accept two numbers from keyboard and store them in num1 and num2
+
+Step 3 :
+
+      Declare a variable as Sum 
+
+Step 4 : 
+
+    Assign value as 
+
+	Sum = Num1 + Num2 
+
+Step 5 :
+
+	Display Sum 
+
+
+______________________________________________________________________________________
+
+
+Algorithm : 
+	
+	Write an Algorithm for Convert Celsius to Fahrenheit 
+
+		f = ((9*c)/5)+32 
+
+
+Step 1 :
+
+	Declare two variables as c,f
+
+Step 2 :
+
+        Read value from keyboard and assign value for c
+
+Step 3 : 
+     
+         Assign value for f as 
+	
+	   f= ((9*c)/5)+32
+
+Step 4 : 
+
+	Print 'Fahrenheit Value  ', f
+
+_______________________________________________________________________
+
+
+Write a Algorithm to Check given number is positive or negative
+    
+Step 1 :
+
+       Declare a variable as n
+
+Step 2 :
+
+	Accept data from keyboard and assign the value to n
+
+Step 3 : 
+
+	is n >= 0 then
+           PRINT 'Positive Number'
+
+Step 4 : 
+
+       is n < 0 then 
+	 PRINT 'Negative Number'
+
+
+_________________________________________________________________________
+
+Write an Algorithm for max. of 3 numbers
+
+Step 1 :
+
+	Declare 4 variables as firstNo, secondNo, thirdNo and maximum
+
+Step 2 : 
+
+	Read 3 values from keyboard and assign to firstNo, secondNo and thirdNo
+
+Step 3 : 
+
+	Assign value of maximum to firstNo 
+
+Step 4 : 
+
+	is maximum < secondNo
+	    maximum = secondNo
+
+Step 5 : 
+
+	is maximum < thirdNo
+	    maximum = thirdNo
+
+Step 6 : 
+	PRINT 'Maximum is ',maximum
+
+____________________________________________________________________________________
+
+Write an Algorithm to Print your name 5 times 
+
+Step 1 : 
+
+     Declare an integer variable count
+
+Step 2 : 
+	
+     Assign value 0 to count
+
+Step 3 : 
+       Repeat until count < 5:
+
+      a) PRINT 'Your Name'
+      b) Increment count by 1 (count = count +1) 
+
+
+__________________________________________________________________________
+
+Write an Algorithm for Print Even Numbers of given Range 
+
+Step 1 :
+	Declare a variable num and count 
+
+Step 2 : 
+
+	Accept number from keyboard and assign to num (31)
+
+Step 3 : 
+
+	Assign count to 21
+
+Step 4 : 
+
+	Repeat until count < n
+
+     a) Increment Count by 2 (Count = Count +2)
+
+     b) Print Count
+
+_______________________________________________________________________________
+
+Step 1 : 
+    Delcare a variable as num, count
+
+Step 2 :
+
+    Accept number from keyboard and assgin to num,count
+
+Step4 : 
+     Assign Count to 21
+
+Step 5 : Repeat until count < num
+ 
+     a) is count mod 2 = 0 then 
+           Print Count
+     b) Increment count by 1 (count = Count +1)
+
+_________________________________________________________________________________________
+
+
+Array : An array is the finite ordered set of homogeneous elements, means all
+the elements belongs to same data type. 
+
+All the elements of an arry are stored in successive memory locations. 
+
+int[] a= new int[]{10,20,30,40};
+
+a[0]=10;
+a[1]=20;
+a[2]=30;
+a[3]=40;
+
+
+Searching Algorithms :
+______________________
+
+We have 2 algorithms for searching as 
+
+1) Linear Search
+
+	Is the simplest searching method
+
+	Also referred as Sequential Search 
+
+	Involves comparing the items sequentially with the elements in the list. 
+
+
+Write an algorithm to search an element in an arry using Linear Search : 
+_________________________________________________________________________
+
+1) Declare a variable as num and array A, count,searchElement 
+
+2) Accept value from keyboard and assign to variable num
+
+3) assign count value to 0 (count = 0)
+
+4) Read num from count and assign to array a
+
+5) Repeat until count < num
+   
+   a) a[count]={keyboard value}
+   b) Increment count by 1 
+
+6) Read value from keyboard and assgin to searchElement
+
+7) assgin count to 0 
+
+8) Repeat until count < num
+ 
+   a) is a[count] = searchElement 
+          Print 'Element Found'
+	terminate loop
+   b) Increment Count By 1 (count = count + 1)
+
+9) is count > num
+     print 'Element Not Found'
+
+
+2) Binary Search :
+
+   Used for searching large lists
+
+   Searches the element in very few comparisions
+
+   Can be used only if the list to be searched is sorted.
+
+Steps involved in Binary Search :
+__________________________________
+
+
+1) Declare a variable as num and array A, count,searchElement, low, high, middle
+
+2) Accept value from keyboard and assign to variable num
+
+3) assign count value to 0 (count = 0)
+
+4) Read num from count and assign to array a
+
+5) Repeat until count < num
+   
+   a) a[count]={keyboard value}
+   b) Increment count by 1 
+
+6) Read value from keyboard and assgin to searchElement
+
+7) assgin count to 0 
+
+8) Assign low as 0, high as num-1 and middle as (low+high)/2 
+
+      low=0
+      high=n-1
+      middle = (low+high)/2
+
+9) Repeat until count < num
+
+     is a[mid] is Search element 
+
+        Display "Found "
+        Goto Step 10
+
+    is a[mid] > search Element
+        Set High as middle -1
+	 High=middle -1 
+
+    is a[mid] < search Element 
+	Low = Midd+1
+
+10 Exit
+
+_____________________________________________________________________________________________
+
+Sorting Algorithm :
+____________________
+
+You can sort elements of an arry using various ways : 
+
+1) Bubble Sort
+
+2) Selection Sort
+
+3) Insertion Sort 
+
+
+1) Declare a variable as num and array A, count,searchElement 
+
+2) Accept value from keyboard and assign to variable num
+
+3) assign count value to 0 (count = 0)
+
+4) Read num from count and assign to array a
+
+5) Repeat until count < num
+   
+   a) a[count]={keyboard value}
+   b) Increment count by 1 
+
+6) Assign Count as 0
+
+7) Repeat Until Count < num
+
+   a) Assign Value of count+1 to j 
+
+   b) Repeat until j < count 
+
+   c) if the element at index j is greater than element at index count {comparing
+		side/side elements}
+
+         Swap the elements 
+
+   d) Increment index j by 1 
+
+   e) Increment index count by 1
+
+8) Exit 
+
+  
+_________________________________________________________________________
+
+
+Selection Sort 
+
+
+1) Declare a variable as num and array A, count,searchElement,minElement
+
+2) Accept value from keyboard and assign to variable num
+
+3) assign count value to 0 (count = 0)
+
+4) Read num from count and assign to array a
+
+5) Repeat until count < num
+   
+   a) a[count]={keyboard value}
+   b) Increment count by 1 
+
+6) Assign Count as 0
+
+7) Repeat steps 8 and 9 varying count from 0 to num - 1
+
+8) Set minElement = count 
+
+ 8.1 Repat below step varining count from count+1 to n--1
+
+     is (minElement > a[count])
+        minElement = a[count]
+        minIndex=count
+
+9) Swap arr[count] with arr[minIndex]
+
+10) Exit 
+
+________________________________________________________________________________________
+
+1) Write an algorithm to print Pascal Triangle
+
+2) Write an Algorithm to check HCF of 3 number (Highest Common Factor)
+
+3) Write an Algorithm to Print Fibonacci Series
+
+4) Write an Algorithm to Check the string is palindrome or not 
+
+5) Write an Algorithm to Print prime numbers of given range 
+
+

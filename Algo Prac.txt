@@ -1,0 +1,113 @@
+1) Write an algorithm to print Pascal Triangle
+   
+    1)Take a number of rows to be printed, assume it to be n
+
+    2)Make outer iteration i from 0 to n times to print the rows.
+        a) Make inner iteration for j from 0 to (N – 1).
+            Print single blank space ” “
+            Close inner loop (j loop) //it’s needed for left spacing
+        b) Make inner iteration for j from 0 to i.
+             Print nCr of i and j(factorial(i)/(factorial(i - j)*factorial(j)));
+             Close inner loop.
+        c)Print newline character (\n) after each inner iteration.
+
+
+
+
+2) Write an Algorithm to check HCF of 3 number (Highest Common Factor)
+      
+    1)Declare Variable as num1,num2,num3.
+    
+    2)Accept valur from keyboard and assign to num1,num2,num3.
+    
+    3)assig a variable min to store the minimum of three numbers(Math.min(num1,Math.min(num2,num3))).
+    
+    4)Assing count value to min(count =min)
+    
+    5)Repeat until count>=1:
+       a) is i divides num1, num2, num3 completely
+          Print 'HCF is',i
+          terminate loop.
+       b)decrement count by 1(Count--)
+
+    6)is count<1
+        Print'HCF not available'
+
+         
+   
+
+
+3) Write an Algorithm to Print Fibonacci Series
+
+   1)Declare variable as n.
+    
+   2)Accept valur from keyboard and assign to n.
+
+   3)assign two values a as 0 and b as 1 as the first two number of the series(a=0,b=1)
+  
+   4)Print(a,b)
+
+   5)Assign count value to 1(count=1)
+
+   6)Repeat until count<=n
+      a)assign sum as a+b(sum=a+b)
+         Print sum.
+      b)Swap them(a=b,b=sum)
+      c)increment count by 1(count++)
+
+
+
+
+
+
+
+
+
+4) Write an Algorithm to Check the string is palindrome or not
+
+   1) Declare a string as str
+   2) Accept valur from keyboard and assign to str
+   3) Assign length and Calculate the length of the string(length=str.length())
+   4) Initialize rev = “ ”   [empty string]
+   5) Asign count to length - 1 
+   6) Repeat until count>=0:
+		6.1: rev = rev + Character at position ‘count’ of the string
+		6.2: decrement count by 1(count--)
+   7) If string = rev:
+		7.1: Print “Given string is palindrome”
+   8) Else:
+		8.1: Print “Given string is not palindrome” 
+
+
+
+
+5) Write an Algorithm to Print prime numbers of given range 
+
+
+  1)Declare variables as num1,num2.
+  
+  2)Accept value from keyboard ad assign to num1,num2.
+
+  3)initialize a flag variable as 0(f=0).
+
+  4)Assign i to num1.
+
+  6)Repeat until i>=num2.
+     a)assign j to 1
+
+     b)repeat until j<=i:
+        i)is i mod j=0
+            flag++
+        ii)is flag=2
+             print j
+        iii)increment j by 1
+     c)increment i by 1
+
+
+
+
+
+
+
+
+
