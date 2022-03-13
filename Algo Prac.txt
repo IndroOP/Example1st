@@ -2,7 +2,7 @@
    
     1)Take a number of rows to be printed, assume it to be n
 
-    2)Make outer iteration i from 0 to n times to print the rows.
+    2)Make outer iteration i from 0 to n times to print the row.
         a) Make inner iteration for j from 0 to (N – 1).
             Print single blank space ” “
             Close inner loop (j loop) //it’s needed for left spacing
